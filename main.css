@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    background-color: #121213;
+    font-family: sans-serif;
+}
+header,
+main{
+    display: inline-block;
+    width: 100%;
+    color: white;
+}
+header{
+    border-bottom: solid;
+    border-color: gray;
+    border-width: 1px;
+    font-size: 50px;
+    padding: 0.5em;
+    text-align: center;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+    line-height: 1em;
+    width: 1.5em;
+    text-align: center;
+}
+header > a:first-child{
+    float: left;
+    margin-right: 5em;
+}
+h1{
+    margin: 0;
+    font-size: 100%;
+    line-height: 1em;
+    display: inline-block;
+}
+nav{
+    float: right;
+}
+nav > a{
+    float: right;
+    margin-right: 1em;
+}
+nav > a:first-child{
+    margin-right: 0em;
+}
+button{
+    float: left;
+}
