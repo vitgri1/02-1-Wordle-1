@@ -3,110 +3,107 @@ body{
     background-color: #121213;
     font-family: sans-serif;
 }
-header,
-main{
+.container{
     display: inline-block;
     width: 1000px;
     color: white;
     margin-left: calc(50% - 500px);
 }
-header{
+.container:first-child{
     border-bottom: solid;
     border-color: gray;
     border-width: 1px;
     font-size: 50px;
     text-align: center;
 }
-a{
+.link{
     color: #fff;
     text-decoration: none;
     line-height: 1em;
     width: 1.5em;
     text-align: center;
 }
-header > a:first-child{
+.drop-down-menu{
     float: left;
-    margin-right: 5em;
+    margin-right: 4em;
     margin-left: 0.5em;
 }
-h1{
+.site-name{
     margin: 0;
     font-size: 100%;
     line-height: 1em;
     display: inline-block;
 }
-nav{
+.menu{
     float: right;
 }
-nav > a{
+.menu-item{
     float: right;
-    margin-right: 1em;
-}
-nav > a:first-child{
     margin-right: 0.5em;
 }
-header > a:first-child,
-h1,
-nav{
+.drop-down-menu,
+.site-name,
+.menu{
     margin-top: 0.5em;
     margin-bottom: 0.5em;
 }
-main > div{
+.guess-block,
+.keyboard-block{
     float: left;
     margin-left: 35%;
     width: 30%;
     text-align: center;
-}
-main > div:first-child{
     margin-top: 40px;
 }
-main > div:last-child{
-    margin-top: 2%;
-    width: 40%;
-    margin-left: 30%;
-}
-main > div:first-child >div
-{
+.row{
     display: inline-block;
     width: 100%;
     font-size: 24px;
     font-weight: bold;
 }
-main > div:first-child > div > div
-{
+.column{
     float: left;
     width: 19%;
     margin-left: 1.25%;
     background-color: #3A3A3C;
     padding: 0.7em 0;
 }
-main > div:first-child > div > div:first-child
-{
+.column:first-child{
     margin-left: 0;
 }
-#yellow{
-    background-color: #B59F3B;
+
+.keyboard-block{
+    margin-top: 2%;
+    width: 45%;
+    margin-left: 27.5%;
 }
-#green{
-    background-color: #538D4E;
-}
-#black{
-    background-color: #1F1F21;
-}
-#gray{
-    background-color: #818384;
-}
-main > div:last-child > div{
+.key-row{
     display: inline-block;
-    margin-bottom: 1%;
 }
-button{
+.key{
     color: #fff;
     background-color: #3A3A3C;
     float: left;
     font-size: 20px;
-    padding: 0.5em;
+    line-height: 1em;
+    padding: 0.7em 0;
+    width: 2em;
 }
-button:hover{
+.key:hover{
     text-decoration: underline;
+}
+.long{
+    width: 4em;
+}
+.yellow{
+    background-color: #B59F3B;
+}
+.green{
+    background-color: #538D4E;
+}
+.black{
+    background-color: #1F1F21;
+}
+.gray{
+    background-color: #818384;
 }
